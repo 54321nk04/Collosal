@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#Header {
+    background: rgba(0, 91, 193, 0.6);
+    position: fixed;
+    width: 100%;
+    animation: data 2s;
+
+}
+
+@keyframes data {
+    0% {
+        margin-top: -100px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.Header-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header-itemss:hover {
+    text-decoration: none;
+    color: #f51111;
+    margin: 0 15px;
+
+}
+
+.Header-itemss {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+
+    position: relative;
+    transition: all .3s ease;
+}
+
+
+.Header-itemss::before {
+    position: absolute;
+    content: "";
+
+}
+
+.Header-item {
+    color: #fff;
+    display: flex;
+}
+
+/*Header*/
+
+
+#about {
+    background: url("../img/Rrr 2.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.hover {
+    font-size: 31px;
+    color: white;
+    margin-bottom: 30px;
+    animation: anime 9s;
+}
+
+@keyframes anime {
+    0% {
+        margin-left: -800px;
+    }
+    100% {
+        margin-left: 0;
+    }
+
+}
+
+.hover-1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    animation: title 10s;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+
+    }
+
+}
+
+
+.btn:hover {
+    background: aqua;
+    width: 100px;
+    height: 30px;
+    color: crimson;
+    border: aqua;
+    box-shadow: 0 16px 24px rgba(78, 0, 59, 0.16);
+}
+
+.btn {
+    background: blueviolet;
+    width: 100px;
+    height: 30px;
+    color: black;
+    border: #fff;
+    border-radius: 10px;
+    box-shadow: 0 16px 24px rgba(78, 0, 59, 0.16);
+}
+
+.text-1 {
+    padding-top: 200px;
+    margin-left: 200px;
+}
+
+.btn-3:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.btn-3 {
+    background: brown;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.clec {
+    width: 430px;
+    height: 700px;
+    background: rgba(0, 91, 193, 0.6);
+    margin-top: -414px;
+    margin-left: 199px;
+    transition: 2s;
+}
+
+.text-3 {
+    width: 204px;
+    height: 85px;
+    left: 545px;
+    top: 955px;
+    font-style: normal;
+    font-size: 30px;
+    color: #343434;
+}
+
+#anime {
+    padding-top: 200px;
+    background: white;
+    min-height: 100vh;
+}
+
+
+.row-1 {
+    width: 100px;
+    height: 0;
+
+    border: 3px solid #005BC1;
+}
+
+.row-2 {
+    width: 50px;
+    height: 0;
+
+    /* Accent */
+
+    border: 3px solid #005BC1
+}
+
+.anim {
+    display: flex;
+}
+
+.link {
+    width: 100px;
+    border: 3px solid #005BC1;
+    margin-left: 19px;
+}
+
+.link-one {
+    margin-left: 48px;
+    width: 70px;
+    border: 3px solid #005BC1;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.tad {
+    display: flex
+}
+
+.get {
+    margin-left: 10px;
+    padding-top: -10px;
+    font-size: 25px;
+    color: #343434;
+}
+
+.row-one {
+    width: 540px;
+    height: 371px;
+    margin: 0 20px;
+}
+
+.title-non {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1160px;
+    top: 750px;
+
+    transform: matrix(-1, 0, 0, 1, 0,)
+
+}
+
+.logo-text {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1120px;
+    top: 750px;
+
+}
+
+.link {
+    width: 100px;
+    border: 3px solid #005BC1;
+    margin-left: 19px;
+}
+
+.link-one {
+    margin-left: 48px;
+    width: 70px;
+    border: 3px solid #005BC1;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.link-text {
+    margin-left: 20px;
+    width: 510px;
+    border: 3px solid #005BC1;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
